@@ -727,6 +727,20 @@ section,
   font-size: 1.2rem;
 }
 
+.social-links a {
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.social-links a img {
+    transition: 0.3s;
+}
+
+/* Hover effect: turn SVG white */
+.social-links a:hover img {
+    filter: invert(1) brightness(2);
+}
+
 .hero .hero-image {
   position: relative;
   display: flex;
