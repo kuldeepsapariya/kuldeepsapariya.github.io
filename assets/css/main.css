@@ -1661,7 +1661,7 @@ section,
   padding: 2rem;
   background-color: var(--surface-color);
   border-radius: 12px;
-  box-shadow: 0 5px 25px -5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--default-color), transparent 90%);
   transition: all 0.3s ease-in-out;
   position: relative;
   overflow: hidden;
