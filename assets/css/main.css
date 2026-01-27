@@ -1310,6 +1310,24 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
+.skill-badge {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #f3f4f6;
+    color: #111827;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.skill-badge:hover {
+    background: #2563eb;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
 .skills .skills-summary .skills-badges h4 {
   color: var(--heading-color);
   margin-bottom: 15px;
